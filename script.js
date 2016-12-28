@@ -55,6 +55,7 @@ function *run() {
 
                 memo.push({
                     title: thisLink.text(),
+                    id: thisLink.attr('href').match(/\d+.\/$/g)[0].slice(0, -1),
                     date: that.find('.postDate').text(),
                     url: 'http://www.sanjoseinfo.org' + thisLink.attr('href')
                 });
