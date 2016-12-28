@@ -1,0 +1,17 @@
+{
+  "name": "memos-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for sanjoseinfo.org memos",
+  "main": "script.js",
+  "dependencies": {
+    "nightmare": "^2.9.0",
+    "nightmare-load-filter": "^0.2.0",
+    "vo": "^4.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jay Bryan Canas",
+  "license": "MIT"
+}
