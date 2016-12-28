@@ -75,7 +75,7 @@ function *run() {
         });
     }
 
-    fs.writeFile('./memos.json', memos, function(err) {
+    fs.writeFile('./memos.json', JSON.stringify(memos), function(err) {
         if(err) {
             return console.log(err);
         }
